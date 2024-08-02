@@ -1,0 +1,46 @@
+input,
+textarea,
+select,
+button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.img-bg{
+  width: 400px;
+  position:absolute;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+}
+.logo-pic{
+  width: 200px;
+  position: absolute;
+  left: 80px;
+
+}
+.body-main{
+  position: absolute;
+  right: 0;
+  left: 420px;
+  top: 70px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+ }
+ 
+ .form-row {
+   display: flex;
+ }
+ 
+ .form-group {
+   padding: 5px;
+   width: 50%;
+ }
+ 
+ .form-group input {
+   width: 100%;
+ }
