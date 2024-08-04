@@ -1,15 +1,14 @@
-input,
-textarea,
-select,
-button {
-  width: 150px;
-  padding: 0;
-  margin: 0;
+input
+{
+  width: 100%;
+  padding: 2px 20px;
+  margin: 8px 0;
   box-sizing: border-box;
 }
 
 .img-bg{
-  width: 400px;
+  width: 350px;
+  height: 710px;
   position:absolute;
   top: 0px;
   left: 0;
@@ -24,7 +23,7 @@ button {
 .body-main{
   position: absolute;
   right: 0;
-  left: 420px;
+  left: 349px;
   top: 70px;
 }
 label {
@@ -39,8 +38,34 @@ label {
  .form-group {
    padding: 5px;
    width: 50%;
+   margin-right: 50px;
  }
  
  .form-group input {
    width: 100%;
  }
+
+ form{
+  box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.3);
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+button{
+  margin-top: 32px;
+  margin-left: 26px;
+  background-color: #529AD9;
+  border: none;
+  padding: 10px 45px;
+  text-align: center;
+  border-radius: 6px;  
+}
+.login-link{
+  margin-top: 32px;
+  margin-left: 28px;
+}
+
+#first_name{
+  margin-right: 50px;
+}
