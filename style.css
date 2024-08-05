@@ -1,3 +1,11 @@
+
+p{
+  
+}
+body{
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+}
 input
 {
   width: 100%;
@@ -17,18 +25,19 @@ input
 .logo-pic{
   width: 200px;
   position: absolute;
-  left: 80px;
+  left: 61px;
+  top: 223px;
 
 }
 .body-main{
   position: absolute;
   right: 0;
   left: 349px;
-  top: 70px;
+  top: 45px;
 }
 label {
   display: inline-block;
-  margin-bottom: 5px;
+  
  }
  
  .form-row {
@@ -48,24 +57,66 @@ label {
  form{
   box-shadow: 6px 3px 5px rgba(0, 0, 0, 0.3);
   padding-top: 0px;
-  padding-right: 50px;
-  padding-left: 20px;
+  padding-right: 212px;
+  padding-left: 35px;
   padding-bottom: 10px;
 }
 button{
   margin-top: 32px;
-  margin-left: 26px;
-  background-color: #529AD9;
+  margin-left: 39px;
+  background-color: rgba(82, 141, 217, 1);
   border: none;
   padding: 10px 45px;
   text-align: center;
-  border-radius: 6px;  
+  border-radius: 6px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal; 
+  font-weight: 700; 
+  color: aliceblue;
+  
 }
 .login-link{
   margin-top: 32px;
-  margin-left: 28px;
+  margin-left: 39px;
+  font-weight: 500;
 }
 
 #first_name{
   margin-right: 50px;
+}
+#password:invalid,#re-password:invalid{
+  border: 2px solid red;
+}
+
+#first_name:focus, #last_name:focus, #email:focus, #phone:focus{
+ 
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+}
+legend{
+  margin-left: 36px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.cta{
+  margin-left: 36px;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.head{
+  margin-left: 36px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+button:hover {
+  background-color: rgb(57, 108, 175);
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+.credits{
+  margin-top: 626px;
+  margin-left: 47px;
+  color: aliceblue;
+  font-weight: 700;
 }
